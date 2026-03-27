@@ -148,7 +148,7 @@
             try {
                 // Minta perangkat BLE
                 device = await navigator.bluetooth.requestDevice({
-                    filters: [{ namePrefix: 'ESP32' }],
+                    filters: [{ namePrefix: 'kei' }],
                     optionalServices: [SERVICE_UUID]
                 });
                 
